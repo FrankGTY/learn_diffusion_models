@@ -3,7 +3,7 @@ import torch
 from torch import nn
 
 
-class SinusidalPositionEmbeddings(nn.Module):
+class SinusoidalPositionEmbeddings(nn.Module):
     """
     上面的代码是一个 Python 实现的正弦位置嵌入类，用于在神经网络中添加正弦位置嵌入。正弦位置嵌入是一种常用的技术，用于为序列数据中的每个位置添加一个唯一的嵌入向量。这些嵌入向量可以帮助神经网络更好地理解序列数据中的位置信息。
 
